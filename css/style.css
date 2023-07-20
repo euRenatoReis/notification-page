@@ -1,0 +1,223 @@
+:root {
+
+    --point-new: hsl(1, 90%, 64%);
+    --hoverLugarAcao: hsl(219, 85%, 26%);
+    --sectionBackG: hsl(0, 0%, 100%);
+    --bodyBackG: hsl(210, 60%, 98%);
+    --divNewBackG: hsl(211, 68%, 94%);
+    --divHoverBackG: hsl(205, 33%, 90%);
+    --textColor: hsl(219, 14%, 63%);
+    --textColorBold: hsl(219, 12%, 42%);
+    --nomesColor: hsl(224, 21%, 14%);
+}
+
+@font-face {
+    font-family: PlusJakartaSansExtraBold;
+    src: url(../assets/fonts/static/PlusJakartaSans-ExtraBold.ttf);
+
+    font-family: PluskartaSansMedium;
+    src: url(../assets/fonts/static/PlusJakartaSans-Medium.ttf);
+
+    font-family: PluskartaSansVariable;
+    src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+p {
+    font-size: 16px;
+    color: var(--textColor);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bodyBackG);
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 65px -12px black;
+    background-color: var(--sectionBackG);
+    width: 50%;
+}
+
+.cabecalho-notificacoes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.notificacoes {
+
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.user {
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.user img {
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.user-1-content,
+.user-2-content,
+.user-3-content,
+.user-4-content,
+.user-5-content,
+.user-6-content,
+.user-7-content {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.user-3-content p, .user-7-content p{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.coment-user-4{
+
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px var(--textColorBold);
+    border-radius: 5px;
+    margin-left: 72px;
+    height: 75px;
+    padding: 10px;
+    width: 500px;
+}
+
+.coment-user-4:hover{
+    cursor: grab;
+    background-color: var(--divHoverBackG);
+}
+
+.perfil-information{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.user.rizky{
+
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+}
+
+.new{
+    background-color: var(--divNewBackG);
+}
+
+.user-content-principal{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.user-6-content .user-content-principal{
+    display: flex;
+    flex-basis: auto;
+}
+
+.user-6-content .user-content-principal b:nth-of-type(2){
+
+    display: flex;
+
+}
+
+
+.tempo-postado{
+    display: flex;
+    font-family: PlusJakartaSansVariable;
+    align-self: flex-start;
+    
+}
+
+.grupo{
+
+    display: flex;
+    color: var(--hoverLugarAcao);
+}
+
+b:hover{
+    color: var(--hoverLugarAcao);
+    cursor: grab;
+}
+
+b{
+    font-family: PlusJakartaSansExtraBold;
+    color:var(--textColorBold);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.ponto-new{
+    background-color: var(--point-new);
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.marcar-como-lida{
+
+    background: none;
+}
+
+.marcar-como-lida:hover{ cursor: grab;}
+
+.notificacoes-title{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.numero-notificacoes{
+
+    background-color: var(--hoverLugarAcao);
+    color: var(--sectionBackG);
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,106 @@
+
+*{
+
+    max-width: 375px;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    align-items: center;
+    gap: 10px;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px;
+    gap: 40px;
+}
+
+input, p, b{
+
+    font-size: 14px;
+    display: flex;
+    flex-direction: row wrap;
+    flex-wrap: wrap;
+}
+
+.cabecalho-notificacoes{
+
+    display: flex;
+    padding: 20px;
+}
+
+.notificacoes{
+
+    display: flex;
+    align-items: center;
+}
+
+.user{
+
+   display: flex;
+   width: 340px;
+   gap: 10px;
+   border-radius: 5px;
+   flex-direction: row wrap;
+}
+
+
+.user img{
+
+   display: flex;
+   width: 35px;
+   height: 35px;
+   border-radius: 20px;
+}
+
+
+.user-1-content,
+.user-2-content,
+.user-3-content,
+.user-4-content,
+.user-5-content,
+.user-6-content,
+.user-7-content {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.user-content-principal{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user.rizky{
+
+    display: flex;
+    height: 200px;
+}
+
+.coment-user-4{
+
+    display: flex;
+    width: 235px;
+    height: 200px;
+    margin-left: 70px;
+    flex-grow: 1;
+}
